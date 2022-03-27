@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia"></div>
-      <p> &copy;Coffe</p>
+      <p> &copy;Coffee</p>
     </div>
   );
 }

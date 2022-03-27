@@ -4,6 +4,7 @@ import "../styles/ProductCard.scss";
 function ProductCard(props) {
   const { image, name, quantity, price, description, comments, rating } = props;
   console.log(image);
+
   return (
     <div className="card">
       <div className="image">
@@ -39,7 +40,7 @@ function ProductCard(props) {
           <p>{rating}</p>
         </div>
         <div className="price">
-          <p>{price} RONN</p>
+          <p>{price} RON</p>
         </div>
         <div className="about">
           <button>Learn More</button>
