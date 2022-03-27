@@ -39,7 +39,7 @@ function ProductCard(props) {
           <p>{rating}</p>
         </div>
         <div className="price">
-          <p>{price} RON</p>
+          <p>{price} RONN</p>
         </div>
         <div className="about">
           <button>Learn More</button>
