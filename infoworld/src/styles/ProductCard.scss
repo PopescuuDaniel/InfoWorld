@@ -1,20 +1,30 @@
 .card {
   width: 20rem;
-  height: 21rem;
+  height: 40rem;
   border: solid 1px black;
   border-radius: 0.8rem;
   margin: 10px;
+  margin-top: 7rem;
+  background-color: rgba(207, 194, 194, 0.562);
+  font-size: 1rem;
+  .textarea {
+    height: 1rem;
+  }
+
   .image {
-    width: 20rem;
-    height: 10rem;
+    width: 24rem;
+    height: 11.5rem;
+    margin-left: 0.6rem;
 
     img {
       border-radius: 0.8rem 0.8rem 0 0;
     }
   }
   .name {
-    margin-left: 1.4rem;
-    margin-top: 0.5rem;
+    // margin-left: 1.4rem;
+    // margin-top: 0.5rem;
+    color: black;
+    font-size: 1.2rem;
   }
   .text {
     margin-left: 1.4rem;
@@ -27,5 +37,28 @@
   .about {
     margin-left: 1.4rem;
     margin-top: 0.5rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8rem;
+    padding-left: 3rem;
+    .card {
+      width: 50rem;
+      height: 40rem;
+
+      .image {
+        width: 30rem;
+        height: 20rem;
+        padding-left: 8rem;
+      }
+      .textarea {
+        height: 1.5rem;
+        width: 10rem;
+        border-bottom: 1px solid #121619;
+      }
+    }
   }
 }

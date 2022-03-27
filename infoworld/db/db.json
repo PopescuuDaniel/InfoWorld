@@ -1,8 +1,988 @@
 {
   "hotDrinks": [
     {
+      "image": "http://3.bp.blogspot.com/-Cp4yEB_gJCY/U0R9TI15SXI/AAAAAAAAAJE/cJQPFoJ5QQc/s1600/chocolate-dalmation-starbucks-secret-menu.jpg",
+      "name:": "The Chocolate Dalmation",
+      "price": 12.5,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "data:image/jpeg;base64,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",
+      "name:": "Burnt Marshmallow",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://starbuckssecretmenu.net/wp-content/uploads/2013/06/the-cadbury-blackforest1.jpg",
+      "name:": "The Cardbury Blacforest",
+      "price": 15,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 4,
+      "comments": [
+        {
+          "author": "Andrei",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Eugen",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://preview.redd.it/9bxuva5e3om21.jpg?auto=webp&s=23e46b9fc7c804e1b1848cb4fe8571931a5d3d96",
+      "name:": "The Happy Shot",
+      "price": 19,
+      "quantity_stock": 24,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "Inocentiu",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Alin",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "data:image/jpeg;base64,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",
+      "name:": "Butterscotch latte",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://starbuckssecretmenu.net/wp-content/uploads/2013/02/liquid-cocaine.jpeg",
+      "name:": "Liquid cocaine espresso",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxETEhUTEhIVFhUWFhcYFRUWFRUVFxYWGBUXFhgYFhUYHSggGBolHRUVITEhJykrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGislICArLS0tKy0tLS0rLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAUCAwYBBwj/xAA8EAACAQIEAwUFBgUDBQAAAAAAAQIDEQQhMUEFElEGImFxgUJSkaHwEzKxwdHhBxRicvEjM5IWQ2Oisv/EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAiEQEAAgICAwEBAAMAAAAAAAAAAQIDESExBBJBEyJhcZH/2gAMAwEAAhEDEQA/APqAALMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHnMhchL0C4JQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8btqV08RUqS5aay3f77Ira0QtWs2WDmZulPpYYTDuKV82t/0Jc22Nr+sQgSoTyzXiv06nlTC3y5idGJqrzUVdlZhMK5cPl7xm8A/eM5cSpL2iTRqqSuisRC25Qf5CXvj+UqrSRYmaHpB7SqpVasdY3PIcShe0rxfjoWrNVXCQmrSiiNWjqf+o/me4a4tPNZnpBq4CdLvUndbx/Y34TFKautd0XrffExqVLU1zDeADRmAAAAAAAAAAAAAAAAAAAAAAAAjY+TUcvX9yww2GUIpJW6ldj1LlvB5p3ta91urb5XN/CuKxqJRfdlmknlzJO11+mpnPbWvSbY2RZiotiVdRyWbIteK9rxWZ6eyRBxyUlY2zqtkPES5dTjy+RaY4jhvjwxvlT1uEq9+b4EjB1vssr38yRP5EavRvscf6XidxLrilJjUpceMRvZssaeJTRzf8rF6knDwcVa7Jr5eWvfKLeNSel/GSZkc+8fUpu7XMvAt+HY+FVd1q/Q68Pm0vPrPEubL41qRuOYSUylqWp1/CbSVtpZ3y6aerLms+XUras4Td1ny5+qOqeXOlA8gskemzAABKAAAAAAANOKxdOmr1JxivF2v5LVgbgVS7QUHfl53azvyNLP+63zJWD4lSqZRln7ryfot/QhOpSwASgAAAAAAAB6lcr+I8Icu9TaT3i/uvxXuvyJ6N8ZWKXiJjlpSVHR4niqPdnGTX9Su/SS1+ZYYfitCo+93Xunf/PxLGbi8iDicFTfsr0/Q5rUn5O/9umLQnqMJLutPyaf4ETF0Ms80Qv5FbNowlh5rSb+LRW8e0cwmvE8S2Qo5ZfAclvFEONOqnk/r4nslXOWceodHuxrU88tTbRezWZrhGruvkezU76/gV/Cfq37JDp3ID4dNTUqbt65fAn05ytnYyd3qy0ePj+n62jpYqhOcUptJrdHkcHCCbSzer/bYzwUnazM8U8j0scRp52SdSiAA2YAAAAAAeSaWb0PSplJ4iaVN3hFqSs+6378mnmlsuuetrQmI2l1XUqXjTfL/Vv6fXwNuB7OU4vmlnJ5tvvSb8ZSJ+GoKnFLfd9TN4gq1iNNMuGUV7Kfg27Z+GhW43g9Nq9Ncttk38nqmWcqg2uEoeGk3Fc2ujfW2/rqbSFwmTcG227zna+y5rW+Kf8AgmlmM9gAJQAAAAABjUq2hJ+6m/RZv5XMjQ6lpNFbdL07e0cXGSTTyejNrmfPeJ8b/lK8qbvZP5POMrb5NXL7hnaGnNJqSaPOnJak8vQjHFo3DpbmtmjDYyEtJL4m6b6G1ckWhjNZiWuRlCRrlWSMPtUV94j6t6zLc2YSszFZm+jhrvN/XmJvEp1ooxVjbRoNu23Xob6WGgnv8T3EY2ENWvBLUt/MQr/U9JEKaijRinoMJiOdXMMQ8zpx9OfJuJ5agAaMQAAAABjUpKScXpLKVnZ8rydms/hmbMJTpUY8tNZfi+v4kfEp2y1v+ZlhcJNvNNFZaU6b5SbPUjOa5T2iuZkLsqNG/kaOMV1TpvK7dklu23ZL1bS9SdiMVGnZbv5LqykqN1aqm/uwb5V1npfyirrzk/dJRM6bsPS5YqOtlm+r3fq7mwAsxAAAAAAAACFjXZpm3HYuNKEpy0XzeyRw2G7SzrYht/7duVLZPZr8PUyyZK14n63w4rX3MfGj+JOB51CvBNuK5Z26XvF/G6PnlHEzg7xk4vqnY+tTk5Jp6rf9Skq8Jp6ckbXvay1ebsc8f06uaRDl8F2sxEH3uWa8cn8V+hdYXt0t4SXk0ybieE05wcHFJNWukk1bRp+BzfFOy86aUqbc1bvbO/VLdaZEWxwmMm3X4btnQlq5LzT/ACJ9LtTh/f8A/WX6HyyNKUXZpp9GmmTcOmYXq3pES+o0+1OH2k/+Mv0Nn/U8H92Lfnkj5/holthjnveY6dVMNJ7dPLi9SftWXRZfM9hJs08M4bUnaysury/yWuLwCpqOd2/p2GPHe88mS+OnELzhiSpxttr5mFR5srFxD7KjKbdsreryT9NfRm3huK54nqUy1raKT28jJhtas5I6TAAdLjAAAAInEcaqUb2vL2V+b6IJSadVfaQhld528F+9vmXsJcy8T5hgYYirXcoSfNe86j0gtUvySWx2FOnLWVScpdXJpekI2S/HxK9r7irbxhNMi0eLxpx05m9M7fF9DZOjf25+sub/AOr29CMuFUud1GnJvZybivKGn+Bo94Y4eVSq+aWjzbe/gl0J6VskeglSZ2AAlAAAAAAAAD5v/FfjvJyYeLza5peuiOX4PiLRIn8U6jfEKmelvwRAwmLagnfY8/yI9pet4sxWH1bs7joVo29qNlJdcsn6r5on47h/K+q2fhsfH+BdoZYeuql8nlKPvR6Lx3XkfY6PEo1aS5WmpK8X4PNfXiaYo457ZZu+OlaqVmeypG/k5s0/P66mz7L9jTe2HSu/lV0+RDxPAVN80LJ7p5L0ssjoaVG7t9I30sPbX4lLU21rk05qh2cb1n8FkdBwngkIJOXefy+BbUsIsiZRw9mZR48baz5MzGtt2Eo2WZSY+pzzbWiyXkty1x9fljy7v8Dk+OcWjh4Nt972UaXvWkKUpa8uZ/iNxh3hh4PTvzt1a5Yr4cz9UXvYrGSdKDb8GfMcTXlVqSqT+9J38ui9FZeh9K7I4VxoQvueflvO4t9elipEUmruQY09EZHtxO4fPWjUgBoxOJUclra/hFe9Lw6Lf4tShhjsXyLJc0nom7JL3py9mK6/C7KuhSnVk4tt2ffqWtne/Kls7aR9la94k4dOo2k3ZPvytZ83TpzeHs+elnSpqKUYqyWiRC3TyjRjBKMVZL6+JmASoAAAAAAAAAAAAAAAA+O/xk4JJV4YhfcmlF/3rbwyRwibULH6P43wuGJoyo1NJLJ7xezR+f8AHYCVKrUozXehJxkvBb+TX4nNlr9dvj33GnPSlndvI6/sv2jnGChfJSuk+j1KHFcMbV4/De31sRcNOUJZLTW/5lN7jhvEanl9f4fxlXb9l523V8/1OiwmLjJJpo+PU+JNx18/0N/De0dSk3rZfj4ozraZmdr3xR8fa6U0Sqdr33Pl+C7cxWUv0/EvqPbGlbJ5+a+Zab6ZfhMu8g0YY7iUKazzey+tjgMR222j8l+pRY7tHK15y5bvreUmUt5HyG1PDnuXc8T41GKc29r3eiPnvEsW63NVn91/cj4e8/FkDiGOlVsnf7NaLeb/ACVyy4dwaviWlJOnTSTu1ZuN7d1b6WvocdrTPMu6tK1jUIPAOFyr1UknyprmfgfW8FhrcsY6K1iFwjhcaMIwgkrb9X/U9zoMLSss1mThxzmyf4Y+TmjDj47lvQBDxGJvlF2WTc9bK+kVu3trtk7ntvA1tli8S13Y25srt6QT3fV9F4oiwo87ai2kpd+Xtc1lo/ftb+1eNraY0XK1Om+VR+/K/M4J3ervzVpXet7Jtu/tW9GlGEVGKslov33fjuO1p4KNKMYqMUlFKyS2MwCVAAAAAAAAAAAAAAAAAAAD5/8AxN7JyrJYqhFurBf6kI61ILdLeS6bo+gAiYiY1K1bTWdw/OeErcz6dfDPS3Us/wCXozXfivB7+Fnrvc+idrOwFLEOVbDv7Ks85L/t1HvzL2W9OZfM+e4zh9fDy5cTSdPo9YP+2ayf4nHkxTXl6OHPW3EscL2di84TT8H8ndbGjF9msRfu0+dJXunHN+rvkWOGqb38tv8ABY08TUWfNnu8un1c5Zmd727Y1rpyMeB4lP8A2aj8oSd/Ky08dyZR4Zikv9irfZfZz6X6dDscNi55Xzk82trfX10mYfGyvpll088/20K2vMr1jXTj8JwXGyVlRs37zUbLxu7/ACJuB7EVXPnr1FdbRTly+Nna68VpZ+nWLGS5rpW6rbX5fkT6CbzT9Ohn7zHSd7VuC4DQp2ahzSyzfeaf9Oy+vXoqNO6s7/mjChS5sra/WZaUMPZXkWx4bZJ4Y5vIrjjmeXuHoqxvnO3V9EldnkLy0yXXr5L838GeVpwpRcnksrvNyk3lFK2cpN2SWvQ9XFjjHXUPIyXtktuWrFScY81RpLaKu/BLrJtvJJatKzZFtJ2srSb0ytBbttays/nZbyaSlJ/aVMmr8kL3VNNW2yc2tWtNFldynYelyrxev6Gik8GFw8acVGOi3erb1lJ7tvM2gFlAABAAAAAAAAAAAAAAAAAAAAAAGFWlGScZRUk9U0mn5pmYA5bH9gsHN3pqVGX/AI33f+Err4WKip2Crxf+niISXSUXF/FXPoAM7YqW7htXPkr1Lg6XZTFR15H5S/VEmj2cxCfsrx5jswYz4mNrHm5XP4fgE196UV5JssKPCYLVt/JMsAWr42KPitvLy2+sYQS0VjTTX2k2vZg7W96Xj5fj6WkFBgOK/wAmqscSn9+cqfJecqjlL/TjBaylJezs7rOzZt1DGvM8ug4niqeHpOrVlaKssk25SbtGMIrOUm2korNtlJhKVSpNV8QrTs/sqN7xoRas7tZSrNZSlok3GOXNKejB4arVqrFYu32iv9jRT5oYaLVnZrKdZrKU9Fmo5XcrZRbdl6vp+5C7ZShd32Wni/r6yN54lbI9LMpnYACUAAAAAAAAAAAAAAAAPJySV3ojQsdT5efm7t0r2espKKytfVrM216SlFxejI0uHpwcXJu/Jm7PKEuZRs9tderEaErnXVdddg6i67N32srXu9FqVc+BwtO2cpJpc1lytyk04tJ8tud2t0Wmd9uI4YpShoo045PWTl9pTqXkrWtekm887vTUngWF1+foec66rffpr8CFguEwpyck221a7tdZRT5WvururJZGuHBoLl7z7qpx0irqk+aGiyd/vW+8stLIcCXhcdTqX5He1le0krtKSSbSvk0/U3plXR4FTi4u7fLbVRs7RpRvZLX/AEYNPZt9cpfDsDGjBQjorZ2SbtFRTlbV2is/D0E6EoAEAAAAAAFZxfg1Ou4zbcakFJQms7Rk4uUXF5NPkjffLJoswEqzC8NqRylVuvCFn8W2WMIJKyMgQTMyAAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/9k=",
+      "name:": "The Undertow",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/736x/15/0e/39/150e39adf1f73c38f63b173a457a9e1a.jpg",
+      "name:": "The Green Eye",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "Alexandru",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    }
+  ],
+  "coldDrinks": [
+    {
       "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
       "name:": "Coffee",
+      "price": 10,
+      "quantity_stock": 7,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    }
+  ],
+  "frappuccionos": [
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Coffee",
+      "price": 10,
+      "quantity_stock": 7,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    }
+  ],
+  "teas": [
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Coffee",
+      "price": 10,
+      "quantity_stock": 7,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    }
+  ],
+  "allDrinks": [
+    {
+      "image": "http://3.bp.blogspot.com/-Cp4yEB_gJCY/U0R9TI15SXI/AAAAAAAAAJE/cJQPFoJ5QQc/s1600/chocolate-dalmation-starbucks-secret-menu.jpg",
+      "name:": "The Chocolate Dalmation",
+      "price": 12.5,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "data:image/jpeg;base64,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",
+      "name:": "Burnt Marshmallow",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://starbuckssecretmenu.net/wp-content/uploads/2013/06/the-cadbury-blackforest1.jpg",
+      "name:": "The Cardbury Blacforest",
+      "price": 15,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 4,
+      "comments": [
+        {
+          "author": "Andrei",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Eugen",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://preview.redd.it/9bxuva5e3om21.jpg?auto=webp&s=23e46b9fc7c804e1b1848cb4fe8571931a5d3d96",
+      "name:": "The Happy Shot",
+      "price": 19,
+      "quantity_stock": 24,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "Inocentiu",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Alin",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "data:image/jpeg;base64,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",
+      "name:": "Butterscotch latte",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://starbuckssecretmenu.net/wp-content/uploads/2013/02/liquid-cocaine.jpeg",
+      "name:": "Liquid cocaine espresso",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "data:image/jpeg;base64,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",
+      "name:": "The Undertow",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/736x/15/0e/39/150e39adf1f73c38f63b173a457a9e1a.jpg",
+      "name:": "The Green Eye",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "Alexandru",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Coffee",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Coffee",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
       "price": 10,
       "quantity_stock": 4,
       "description": "Best coffee in town",

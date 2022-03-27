@@ -1,15 +1,13 @@
 import React from "react";
-
+import "../styles/Footer.scss";
 
 function Footer() {
-    return (
-        <div className="footer">
-            <div className="socialMedia">
-
-            </div>
-            <p> &copy;2022 www.SaintGiorgio.ro</p>
-        </div>
-    );
+  return (
+    <div className="footer">
+      <div className="socialMedia"></div>
+      <p> &copy;Coffe</p>
+    </div>
+  );
 }
 
 export default Footer;

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { fetchProductByCategory } from "../utils";
 import ProductCard from "../components/ProductCard";
+import "../styles/Container.scss";
 
 function HotDrinks() {
   const [state, setState] = useState([]);

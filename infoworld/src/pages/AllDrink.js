@@ -1,19 +1,40 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "../styles/AllDrinks.scss";
+import { fetchProductByCategory } from "../utils";
+import ProductCard from "../components/ProductCard";
+import "../styles/Container.scss";
 
-function AllDrink() {
+function AllDrinks() {
+  const [state, setState] = useState([]);
+
+  const renderProducts = (productsList) => {
+    return productsList.map((item, index) => {
+      return (
+        <ProductCard
+          key={index}
+          image={item.image}
+          name={item.name}
+          quantity={item.quantity_stock}
+          price={item.price}
+          description={item.description}
+          comments={item.comments}
+          rating={item.rating}
+        />
+      );
+    });
+  };
+
+  useEffect(() => {
+    fetchProductByCategory("alldrinks")
+      .then((response) => response.json())
+      .then((data) => setState(data));
+  }, []);
+
+  console.log("STATE:", state);
+
   return (
-    <div className="AllDrink">
-      <div className="headerContainer">
-        <h1 className="All">MARI</h1>
-        <p> Coffe </p>
-        <Link to="/menu">
-          <button> ORDER NOW </button>
-        </Link>
-      </div>
-    </div>
+    <div className="container">{state.length > 0 && renderProducts(state)}</div>
   );
 }
 
-export default AllDrink;
+export default AllDrinks;

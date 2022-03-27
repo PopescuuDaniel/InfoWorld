@@ -1,0 +1,58 @@
+{
+  "hotDrinks": [
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Coffee",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://preview.redd.it/9bxuva5e3om21.jpg?auto=webp&s=23e46b9fc7c804e1b1848cb4fe8571931a5d3d96",
+      "name:": "The happy shot",
+      "price": 20,
+      "quantity_stock": 74,
+      "description": "Best coffee in town",
+      "rating": 12,
+      "comments": [
+        {
+          "author": "inocentiu",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Alin",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "name:": "Capuccino",
+      "price": 10,
+      "quantity_stock": 4,
+      "description": "Best coffee in town",
+      "rating": 2,
+      "comments": [
+        {
+          "author": "George",
+          "content": "Da, chiar este cea mai buna cafea din oras."
+        },
+        {
+          "author": "Vali",
+          "content": "Da, chiar nu este cea mai buna cafea din oras."
+        }
+      ]
+    }
+  ]
+}

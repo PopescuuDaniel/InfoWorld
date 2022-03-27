@@ -1,0 +1,22 @@
+.container {
+  display: block;
+  background-color: rgb(194, 196, 199);
+  .card {
+    width: 25rem;
+    margin: 3rem;
+    background-color: rgb(196, 186, 51);
+  }
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8rem;
+    padding-left: 3rem;
+    .card {
+      width: 50rem;
+      height: 48rem;
+      color: brown;
+    }
+  }
+}

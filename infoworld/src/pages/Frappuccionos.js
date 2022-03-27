@@ -1,26 +1,40 @@
-import React from "react";
-// import { MenuList } from "../helpers/MenuList";
-// import MenuItem from "../components/MenuItem";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { fetchProductByCategory } from "../utils";
+import ProductCard from "../components/ProductCard";
+import "../styles/Container.scss";
 
+function Frappuccinos() {
+  const [state, setState] = useState([]);
 
-function Frappuccionos() {
-    return (
-        <div className="menu">
-            <h1 className="menuTitle">Our Menu</h1>
-            {/*<div className="menuList">*/}
-            {/*    {MenuList.map((menuItem, key) => {*/}
-            {/*        return (*/}
-            {/*            <MenuItem*/}
-            {/*                key={key}*/}
-            {/*                image={menuItem.image}*/}
-            {/*                name={menuItem.name}*/}
-            {/*                price={menuItem.price}*/}
-            {/*            />*/}
-            {/*        );*/}
-            {/*    })}*/}
-            {/*</div>*/}
-        </div>
-    );
+  const renderProducts = (productsList) => {
+    return productsList.map((item, index) => {
+      return (
+        <ProductCard
+          key={index}
+          image={item.image}
+          name={item.name}
+          quantity={item.quantity_stock}
+          price={item.price}
+          description={item.description}
+          comments={item.comments}
+          rating={item.rating}
+        />
+      );
+    });
+  };
+
+  useEffect(() => {
+    fetchProductByCategory("frappuccionos")
+      .then((response) => response.json())
+      .then((data) => setState(data));
+  }, []);
+
+  console.log("STATE:", state);
+
+  return (
+    <div className="container">{state.length > 0 && renderProducts(state)}</div>
+  );
 }
 
-export default Frappuccionos;
+export default Frappuccinos;
