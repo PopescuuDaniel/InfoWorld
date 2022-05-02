@@ -24,14 +24,8 @@ function ProductCard(props) {
           <div>
             {comments.map((item, index) => (
               <div key={index}>
-                <div>
-                  Autor: {item.author}
-                  <textarea className="textarea"></textarea>
-                </div>
-                <div>
-                  Mesaj: {item.content}
-                  <textarea className="textarea"></textarea>
-                </div>
+                <div>Autor: {item.author}</div>
+                <div>Mesaj: {item.content}</div>
               </div>
             ))}
           </div>

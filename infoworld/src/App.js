@@ -1,25 +1,17 @@
 import "./App.scss";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import AllDrink from "./pages/AllDrink";
-import Frappuccionos from "./pages/Frappuccionos";
-import ColdDrinks from "./pages/ColdDrinks";
-import Contact from "./pages/Contact";
+import "./styles/Container.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HotDrinks from "./pages/HotDrinks";
-import Teas from "./pages/Teas";
+import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
+import Homepage from "./pages/Homepage";
 
 function App() {
+
   return (
     <div className="App">
       <Router>
-        <Navbar />
         <Switch>
-          <Route path="/" exact component={AllDrink} />
-          <Route path="/Frappuccinos" exact component={Frappuccionos} />
-          <Route path="/ColdDrinks" exact component={ColdDrinks} />
-          <Route path="/HotDrinks" exact component={HotDrinks} />
-          <Route path="/Teas" exact component={Teas} />
+          <Route path="/" exact component={Homepage} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
         <Footer />

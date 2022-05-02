@@ -1,49 +1,53 @@
-import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import "../styles/Navbar.scss";
+import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar(props) {
   const [openLinks, setOpenLinks] = useState(false);
+
+  const { setCategory } = props
+
+  const closeBurger = () => {
+    setOpenLinks(false);
+  };
 
   const toggleNavbar = () => {
     setOpenLinks(!openLinks);
   };
-  const closeBurger = () => {
-    setOpenLinks(false);
-  };
+
   return (
     <div className={`navbar ${openLinks ? "open" : ""}`}>
       <div className="nav-links">
         <div className="link">
-          <Link onClick={closeBurger} to="/">
+          <button onClick={() => (setCategory('allDrinks'), closeBurger())}>
             All Drinks
-          </Link>
+          </button>
         </div>
         <div className="link">
-          <Link onClick={closeBurger} to="/Frappuccinos">
+          <button onClick={() => (setCategory('frappuccionos'), closeBurger())}>
             Frappuccinos
-          </Link>
+          </button>
         </div>
         <div className="link">
-          <Link onClick={closeBurger} to="/ColdDrinks">
+          <button onClick={() => (setCategory('coldDrinks'), closeBurger())}>
             Cold Drinks
-          </Link>
+          </button>
         </div>
         <div className="link">
-          <Link onClick={closeBurger} to="/HotDrinks">
-            Hot Drinks
-          </Link>
-        </div>
-        <div className="link">
-          <Link onClick={closeBurger} to="/Teas">
+          <button  onClick={() => (setCategory('teas'), closeBurger())}>
             Teas
-          </Link>
+          </button>
+        </div>
+        <div className="link">
+          <button onClick={() => (setCategory('hotDrinks'), closeBurger())}>
+            Hot Drinks
+          </button>
         </div>
         <div className="link">
           <Link onClick={closeBurger} to="/contact">
             Contact
           </Link>
-        </div>
+        </div> 
       </div>
       <div className="burger-container" onClick={toggleNavbar}>
         <div className="burger">

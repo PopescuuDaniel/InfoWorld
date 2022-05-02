@@ -6,6 +6,7 @@
   height: 100vh;
   background-color: #000000;
   border-right: 10px;
+  z-index: 2;
   .nav-links {
     .link {
       // color: red;
@@ -15,6 +16,12 @@
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-weight: bold;
+      }
+      button {
+        width: 100px;
+        height: 30px;
+        margin-top: 15px;
+        border: 2px rgb(152, 7, 7) solid;
       }
     }
   }
